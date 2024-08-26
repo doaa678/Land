@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaffee</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="ass/res.css">
+</head>
+<body>
+   <header> 
+    <div class="logo">
+        <img src="./ass/logo.png" alt="">
+    </div>
+    <nav class="navigation">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="mnue.html">Menu</a>
+        <a href="res.html">Reservation</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+   </header>
+
+   <section class="main">
+    <h3>Reservation<br><span><a href ="#home ">Home</a> RESERVATION</span></h3>
+     <p></p>
+    
+   </section>
+
+   <section class="table">
+    
+    <h1 class="title">Book Your Table</h1>
+    <div class="img">
+    <span>
+        <img src="./ass/koffee.png" alt="">
+    </span>
+</div>
+    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.
+    </p>
+  
+    <div class="container">
+<form >
+     <div class="user-details"> 
+        <div class="input-box">
+            <div class="input" id="A">
+            <input type="Name" id="name" name="name" placeholder="Name">
+            </div>
+            <div class="input" id="B">
+            <input type="phone" id="phone" name="phone" placeholder="Phone">
+        </div>
+            <div  class="input" id="C">
+            <input type="email" id="email" name="email" placeholder="Email">
+        </div>
+           <div class="input" id="D">
+            <input type="number" id="number" name="number" placeholder="Number Of People">
+        </div>
+            <div  class="input" id="E">
+            <input type="date" id="date" name="date" placeholder="Date">
+        </div>
+            <div class="input" id="F">
+            <input type="time" id="time" name="time" placeholder="Time">
+        </div>
+        </div>
+       
+     </div> 
+    <button type="submit" onclick="show(event)">Submit</button>
+</form>
+    </div>
+
+   </section>
+
+   <footer class="footer"> 
+   
+     <div class="footer-in">
+        <h3>ABOUT US</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur sit adipiscing elit sit Etiam at dictum enim. elit Integer non suscipit, et auctor.</p>
+            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAOdJREFUSEvt1CFOQ0EQxvFfBSHoguEIxSEqMBgOQELKDUpAYlA1FXgcTbB1xRBsBQJLD1ASJCS0VyCBl4xompLNvryXVHTVZHfn+8/O7ExDzatRs761AxzgFm3s4hND9P7LRM4L9vGB7SWxR3SqANzjcoXQCOdVAN5wGEIvOMFP6pPkpOgbeyF4hUFKvDjPAczRDNELPFQBKHLbCqEb7IT9jEnYrxiXrUHxQ84SkV7jrk7AKZ7KAvo4DuejvybbCnuKr7C7eC8LWPSbRfcWe5UVeQPIarRNDZKTpfYUJSNYdSFnmq4n4BdfByoZ/9M5/QAAAABJRU5ErkJggg=="/></a>
+            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAahJREFUSEvt1E2Ij1EUx/HP30JNKS+DUhbsREmzsPKykpVEsZvFpGShKEqpKYqFIqWsKBsslJedUtMsZqbJig1ZSGwkkmkWysyCe+qMHtyZ/zOjWXFXz3Ofc873ub/fObdjkVdnkev7D+iqcE2ir/iEj3iKOxjvWmmWgBrgeyX2Da7iBr7NB1YDLMM6rMce7MfmLPoBp3C3LaRtF+3GdWzJwoO40AbSFhC1luAELufztXyfk1MDTOAtnuMxHmC6UWUnHqIX58v+ubkIbUx+jWMYahTaheE8ST9uzwapAVZgG/bhcJod+adxpVEozA653mMjpmqQbh6E7odwCz2peWg/48kLbMLxbII/GN0AMwnbS8uOpSTRUaP54SDu4x02LOQEzZyTOWyvivFb0/j4wZj41egrM/Psd0jtBANFjksZeCblidel2V0xhAeKT48y5iaO5FzEfPyyaoD4ozUZFXfS2kbGxWLm2bwyjuZ+eHQPT8qdtfdvATswklKEJLGi40Kal41J/8mZj0SRtAqfEcO4MqtEW3/BZPFoeZsT1JphwXtt2/QfBvwApNNGGZwv5ooAAAAASUVORK5CYII="/></a>
+            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAhtJREFUSEu11UuoTmEUBuDnGLjlMjEgchuIhIGZFMolhJgRZpSS3EeuGZi4JsXULTERKRkgBiaIKJfcwkwmBiTCXqfvz3e+/v/s49S/Z/vba73vWut9v7U7tPnpaDO+OoJ+WI5FmIYxdOa8r86f4Bqu4GerQrsjWIiTGFfT5Wusw51mca0I9lTB+1K1PZnib2zH0TK4GcHeBN4T4DJmE07khyVBzPp6b5BTTnQyE/cbGDnBILzAyIwghHyAL5hUJS5A35oCnidDdAqfE6zH6Sx5C47jT3Y2OYk5rIZkaXJYF4KrWJISDyfRwpabMR6XMByHCvDLOJ/s2vh0ChvKDj5iVKp4MPrgVQLtruAjOIjPWdCjqoPpJcE3DMBTTMVKXEhJO5IWDYxlmIK5BfMc3MLXyrJDS4I4jMqfpeScIMS9mYFtxcZqdGeSY+5hZ7qUa/EdA0uCUH9iGtGQZIByRDGObWnmqxJhsxG9TFhdRA6h8qQAGptEjj30DnGRRqQuG3b9hA9VhzOyDs9hTdnBapzNgsI9YdP8mZX2U9i1uyfGe7EkCIHjoo3OMh9X1n2YZjq/En1CDXB8foMo4EdJEO/zCjF7gNclJC7lbNxtnDZbdrtw4H+RU3zc/mN5bqt1vbty0f52retGAYvTbsqXX7PG4ocTe+x2s491v8z+WJF+mXG7YzfFnN8i1sGNtIN+tRppHUEvpfiX1naCv01gYxlinza6AAAAAElFTkSuQmCC"/></a>
+            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAqZJREFUSEu1lVmojmEQx3+HlCwXsi9FcoGylrhQtqzZku2CEoWyZI2yL9mSNWsRuZCiLInsuZEllAtlDynKckHIOv+veWvO03u+71Bnrp53Zt7nP/Of5SmjiqWsiu+nFEBNYBQwCOgEtAL+AM+Be8A54CTwo6JAiwEMAXYDLUtk+RiYClzL86sIYDWw7B/o+w3MB7al/+QBrAGW5lwual4AL4G6QNccn5nArqhPAUY4p9HnEHAQuA18C4YuwCpgWNApk57AjUwXAeoAj4Cm4YfRwAlAxR4AtAG+A3fDJYuB9eGfB4DAf0kXAaYBe4PjZmAh0N5B2iaU7AFmeFftAGYF+2DgfApwBhjqTl89k8+mu2O0dQYueoa6NJNFwCbrtkbWSW+A6m7YCcxOAV4Dzd1Bl4mS4ZbuKeAYMN5tasdefn4HNPazeO/h55vZOVKkqMW1REWdYoeVRsEKB1KGkstA35BFfYv2gwcx1vVvje4maQZfLN1a7nDaJlUdNRfY4mfpagAfgdrup4JnQYnzga4XoIDLFfkp0Nod3nsNmjnvy4GNQD9rw0sh+iuuk0p0NXSbOqljCnA08CzbPGArcN92zRLgrE+3pjwTrRPto/7AhaA/bEM5KQWYABwJThoajf4cT/eTgXQz/q875xtMr25R52gI1fuZjAGOpwDi9RVQLzjqeMui7A40sLlQndQMmYj//cDEoHtiBW9n6+ZnCqDvycCBBGCdU6Q21Vn2h0Afo28k0CL4a1/19iwL6rxlp65R92QiLsXpPl/LCX65T9G5PWoqWtdrPWr5apmpkJpUTWyeKPIF3tLl7MUeHBVdRRzn67lQtBzRgpxu0301z1jqydRgacvqAj2bHYBqwDMvvmZCT2ahoP8DUIzvStlKZVCpS4o5/QUuzoEZGu6bbQAAAABJRU5ErkJggg=="/></a>
+            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAjNJREFUSEvF1UnITWEYB/DfhyLCRlamQiEJkSQskFJfMmS2sTEsFBmKLJTIELKyYCF9hoxRSuykJJIyJpKyYUVW5vfRe+t0Oqd7U7fvrds95x2e///5/5/nPR3aPDraHF+3AYzEVszEeGqJ/MEz3MNxvCkrUpXBBpxAL3zAA7yqkXIyJmIofmATThX3lgGm5IAvsAhvW/QosryBYZiKJ41zZYCrWIAxeN9C8LVJvr34krJdh0cpo+tYUgcQQYN9gBRHD8zDOPzCS9zNc7ezlMMzwCCMqAP4ii5sLEQPfS9iegk0jD2ddP+EwTiDUGA++tUB/MYR7Mgbgvn9zGgb7qBnZn4oV80sRDXFCCJL855/E2UPYuMB7MoHluVD8X+plMHy5NWFZOjCbHAsn0/yxXwQqwUIZjvzejxvR398KwGE1p9TOe9LvuzJayHvqiLxqgyiYbbkAwezXANT44U/xdEA2J96YHdeOIs1zQCO5S6OM1Ful7OuV0oAwTQYFyWK9xXNPChm0DA5SjCkCpOjw+emSjmM15hdMjkA+9R5EDoHi/UFtkOymTMqynQlPhbmo0znICStNDkuq/hVNVow60wV9h23cLPAvBHvMQYkkqPrAIL94lSaY1u8KopJTUj311OcSyRX1wFMSiyDRWwMg9+VZKl7jeDXEF5NyzEqJYrJxnUdBj/MksT8TzxPjdgbo7LZMd8XcQvH+macLLKo+6L9zwfnaNX13m2fzBalb76t7Rn8BcJ+cxlsKeBhAAAAAElFTkSuQmCC"/></a>
+     </div>
+     <div class="footer-in">
+        <h3>Open Hours</h3>
+        <p>Lorem ipsum dolor sit amet, tore latthi dimu consectetueiusmodm dost</p>
+        <li><span class="open-time">Monday- Friday . . . . . . . . . . .8 AM - 5PM</span></li>
+        <li><span class="open-time">Sunday. . . . . . . . . . . . . . . . . 12 AM - 5PM</span></li>
+        <li><span class="open-time">Saturday . . . . . . . . . . . . . . . . . . . . . .Close</span></li>
+        </div>
+        <div class="footer-in">
+            <h3>CONTACT US</h3>
+            <div class="contact">
+                <li><span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASZJREFUSEvt1cErBHEUwPHP3jlQSspNKf4JRzlLDlKKIgfl7LjlphxEUUoOkrMc/ROUs5JSHLizTzOaxuzOrmkum3f8zXvv+953pt801ByNmvvrL8A8mpisqO0BO7iKPllFd5iq2Dwtv8d0HvCZPD3Exh9B2drv4bMbpIA4m8UpRrsEPWMFN8j2KQQM4gNDLcARFkogl1jHGwbwnuS33eARy7hNEhdxgOEc6BWbuEjOZ3CG8TJA2ucE28lEoSqUhbqIUBFKQk1svIfV3ABtN8jmPWEN18lhqIgIdRFzOMZYgcauAGndecvxFkJLROjax1KH99MTIPq8ZDSEvpGSl98zoMsv9iftH1Bq7Jei2i+7uK53MVE6W+eEttd1xb7F5f31y6xF0RedUDYZkAb/FgAAAABJRU5ErkJggg=="/> <i>lorem@gmail.com</i></span></li>
+                <li><span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAfRJREFUSEvN1cvLTWEUx/HPS0kuZUBIihBC7gPlMqAkMaCM3OMfUEaMlBFmjEQMxEAyMDATSRISEZFLEWWgFAOEZ2mdOu92zpu9T2/Zders55z9+z7Pb631230G+eobZH3dABNwBb+wAR+abqQTYBxuYXqKvsCKppAqIMRvYBZeJ2AKnmNlE0gVELasxxssT4uuYxriJAF5X8euKuAHhmIy3qZQ1ONanuoBFvYC+IzRGIUvHQB3sbQXwCPMzc/jFLqfu47fVuNjL4DTxf9dpcA7cTaFokXHYxlu1xGP/1ZrsLv4fwrnSlG3ptgZ7Ci2HS227e8VEG0aO/6OifiExQjvv2E+ntaBdBq0i9iMwziYYidLV+3J9t2CO7keG7raNvF/tXAnwDw8zB0vKbAo7ogUnZPCl3AEJ7Ao12IYV1XnpFsWHcO+nOYYuHcJOZ5N0O7Sq7yZmhPfD9INMDwjI3r+JTai1bYL0rpNeIY1CYhhnFGFDBTXY8vDNzEzh25v+X5+gAK3T/y9ksZhb9e4bumMweX0NtYuZKu2YqSdFwWP3JpdIv6fASEwJEUPYRh+pl3RbZG8kbpfUzxSuF8o1nmjTSrzcaDUZHvpoJFdrIqCx7sjmuLPVQfQeiZOsQ7bMpvCxrieYG1bCjcG1BnkRif4vwC/Ab0RYxl9FmQXAAAAAElFTkSuQmCC"/>(+201003141586)</span></li>
+                <li><span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARxJREFUSEvt1EsuREEUxvFfr8JAgiaewx6S2IHYjIkdsCA2IEw7kYjHwGMgYRNIyb1SSvW9VVrPnFmdnPr+p+o8BmZsgxnrqwHM4QRv2MNrSXKlgCB+geVG9B7bJZASQBA/wyqeGsAi7rDbB+kDxJk/Y6cBnGMevS/pAuTE4xcUQSYBusTb2oZv6oXkACXixZAUUCNeBIkBcbeEy0M8lvQ6lvDQxH7rrhhwha1IsK/DUvZ75BhjFM6xyC3W/ghwg80U0Gq3mbTwfRxhI0n5Ggc4bfzpvU937hvSwBeE+uQsDNrKtIBsZkj9v37BP+BH7Yr+dpoahI25UDjBaViY/LABvizXpqHvj7FeCbnEYTQXE+egUrc7vHbfVMM/AMMeVBkx8bReAAAAAElFTkSuQmCC"/>Aswan - 83 Courniche El Nile </span></li>
+            </div>
+   </footer>
+
+<!-- <footer>
+  <div class="footer">
+    <div class="about">
+       <h2>ABOUT US</h2>
+       <p>Lorem ipsum dolor sit amet, consectetur sit adipiscing elit sit Etiam at dictum enim. elit Integer non suscipit, et auctor.
+       </p>
+       <p>Nunc lobortis eu nunc in facilisis. Nullam urna , maximus at euismod non, </p>
+       <div class="Contact">
+        <h2>CONTACT US</h2>
+       <img src="" alt=""> <a href="mailto:lorem@gmail.com">lorem@gmail.com</a>
+         <a href="tel:+2223335555">(+222 333 5555)</a>
+        <p>Address: Your Address Here</p>
+
+       </div>
+       <div class="hours">
+        <h2>OPEN HOURS</h2>
+        <p>Lorem ipsum dolor sit amet, tore latthi dimu consectetueiusmodm dost</p>
+        <p>Monday- Friday . . . . . . . . . . .8 AM - 5PM</p>
+        <p>Sunday. . . . . . . . . . . . . . . . . 12 AM - 5PM</p>
+        <p>Saturday . . . . . . . . . . . . . . . . . . . . . .Close</p>
+       </div>
+       <div class="news">
+        <h2>NEWSLETTER</h2>
+        <form action="#">
+            <input type="email" placeholder="Enter Your Email">
+            <button type="submit">Send</button>
+        </form>
+    <div socials>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-solid fa-rss"></i></a>
+        <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+
+    </div>
+       </div>
+        <ul>
+            <li></li>
+        </ul> -->
+    <!-- </div>
+
+  </div>
+</footer>     -->
+   <!--  -->
+<!-- <section class="footer">
+    <div class="flooter-box">
+        <h3>ABOUT US</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur sit adipiscing elit sit Etiam at dictum enim. elit Integer non suscipit, et auctor.</p>
+        <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAOdJREFUSEvt1CFOQ0EQxvFfBSHoguEIxSEqMBgOQELKDUpAYlA1FXgcTbB1xRBsBQJLD1ASJCS0VyCBl4xompLNvryXVHTVZHfn+8/O7ExDzatRs761AxzgFm3s4hND9P7LRM4L9vGB7SWxR3SqANzjcoXQCOdVAN5wGEIvOMFP6pPkpOgbeyF4hUFKvDjPAczRDNELPFQBKHLbCqEb7IT9jEnYrxiXrUHxQ84SkV7jrk7AKZ7KAvo4DuejvybbCnuKr7C7eC8LWPSbRfcWe5UVeQPIarRNDZKTpfYUJSNYdSFnmq4n4BdfByoZ/9M5/QAAAABJRU5ErkJggg=="/></a>
+            <a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAahJREFUSEvt1E2Ij1EUx/HP30JNKS+DUhbsREmzsPKykpVEsZvFpGShKEqpKYqFIqWsKBsslJedUtMsZqbJig1ZSGwkkmkWysyCe+qMHtyZ/zOjWXFXz3Ofc873ub/fObdjkVdnkev7D+iqcE2ir/iEj3iKOxjvWmmWgBrgeyX2Da7iBr7NB1YDLMM6rMce7MfmLPoBp3C3LaRtF+3GdWzJwoO40AbSFhC1luAELufztXyfk1MDTOAtnuMxHmC6UWUnHqIX58v+ubkIbUx+jWMYahTaheE8ST9uzwapAVZgG/bhcJod+adxpVEozA653mMjpmqQbh6E7odwCz2peWg/48kLbMLxbII/GN0AMwnbS8uOpSTRUaP54SDu4x02LOQEzZyTOWyvivFb0/j4wZj41egrM/Psd0jtBANFjksZeCblidel2V0xhAeKT48y5iaO5FzEfPyyaoD4ozUZFXfS2kbGxWLm2bwyjuZ+eHQPT8qdtfdvATswklKEJLGi40Kal41J/8mZj0SRtAqfEcO4MqtEW3/BZPFoeZsT1JphwXtt2/QfBvwApNNGGZwv5ooAAAAASUVORK5CYII="/></a>
+            <a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAhtJREFUSEu11UuoTmEUBuDnGLjlMjEgchuIhIGZFMolhJgRZpSS3EeuGZi4JsXULTERKRkgBiaIKJfcwkwmBiTCXqfvz3e+/v/s49S/Z/vba73vWut9v7U7tPnpaDO+OoJ+WI5FmIYxdOa8r86f4Bqu4GerQrsjWIiTGFfT5Wusw51mca0I9lTB+1K1PZnib2zH0TK4GcHeBN4T4DJmE07khyVBzPp6b5BTTnQyE/cbGDnBILzAyIwghHyAL5hUJS5A35oCnidDdAqfE6zH6Sx5C47jT3Y2OYk5rIZkaXJYF4KrWJISDyfRwpabMR6XMByHCvDLOJ/s2vh0ChvKDj5iVKp4MPrgVQLtruAjOIjPWdCjqoPpJcE3DMBTTMVKXEhJO5IWDYxlmIK5BfMc3MLXyrJDS4I4jMqfpeScIMS9mYFtxcZqdGeSY+5hZ7qUa/EdA0uCUH9iGtGQZIByRDGObWnmqxJhsxG9TFhdRA6h8qQAGptEjj30DnGRRqQuG3b9hA9VhzOyDs9hTdnBapzNgsI9YdP8mZX2U9i1uyfGe7EkCIHjoo3OMh9X1n2YZjq/En1CDXB8foMo4EdJEO/zCjF7gNclJC7lbNxtnDZbdrtw4H+RU3zc/mN5bqt1vbty0f52retGAYvTbsqXX7PG4ocTe+x2s491v8z+WJF+mXG7YzfFnN8i1sGNtIN+tRppHUEvpfiX1naCv01gYxlinza6AAAAAElFTkSuQmCC"/></a>
+            <a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAqZJREFUSEu1lVmojmEQx3+HlCwXsi9FcoGylrhQtqzZku2CEoWyZI2yL9mSNWsRuZCiLInsuZEllAtlDynKckHIOv+veWvO03u+71Bnrp53Zt7nP/Of5SmjiqWsiu+nFEBNYBQwCOgEtAL+AM+Be8A54CTwo6JAiwEMAXYDLUtk+RiYClzL86sIYDWw7B/o+w3MB7al/+QBrAGW5lwual4AL4G6QNccn5nArqhPAUY4p9HnEHAQuA18C4YuwCpgWNApk57AjUwXAeoAj4Cm4YfRwAlAxR4AtAG+A3fDJYuB9eGfB4DAf0kXAaYBe4PjZmAh0N5B2iaU7AFmeFftAGYF+2DgfApwBhjqTl89k8+mu2O0dQYueoa6NJNFwCbrtkbWSW+A6m7YCcxOAV4Dzd1Bl4mS4ZbuKeAYMN5tasdefn4HNPazeO/h55vZOVKkqMW1REWdYoeVRsEKB1KGkstA35BFfYv2gwcx1vVvje4maQZfLN1a7nDaJlUdNRfY4mfpagAfgdrup4JnQYnzga4XoIDLFfkp0Nod3nsNmjnvy4GNQD9rw0sh+iuuk0p0NXSbOqljCnA08CzbPGArcN92zRLgrE+3pjwTrRPto/7AhaA/bEM5KQWYABwJThoajf4cT/eTgXQz/q875xtMr25R52gI1fuZjAGOpwDi9RVQLzjqeMui7A40sLlQndQMmYj//cDEoHtiBW9n6+ZnCqDvycCBBGCdU6Q21Vn2h0Afo28k0CL4a1/19iwL6rxlp65R92QiLsXpPl/LCX65T9G5PWoqWtdrPWr5apmpkJpUTWyeKPIF3tLl7MUeHBVdRRzn67lQtBzRgpxu0301z1jqydRgacvqAj2bHYBqwDMvvmZCT2ahoP8DUIzvStlKZVCpS4o5/QUuzoEZGu6bbQAAAABJRU5ErkJggg=="/></a>
+            <a href=""><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAjNJREFUSEvF1UnITWEYB/DfhyLCRlamQiEJkSQskFJfMmS2sTEsFBmKLJTIELKyYCF9hoxRSuykJJIyJpKyYUVW5vfRe+t0Oqd7U7fvrds95x2e///5/5/nPR3aPDraHF+3AYzEVszEeGqJ/MEz3MNxvCkrUpXBBpxAL3zAA7yqkXIyJmIofmATThX3lgGm5IAvsAhvW/QosryBYZiKJ41zZYCrWIAxeN9C8LVJvr34krJdh0cpo+tYUgcQQYN9gBRHD8zDOPzCS9zNc7ezlMMzwCCMqAP4ii5sLEQPfS9iegk0jD2ddP+EwTiDUGA++tUB/MYR7Mgbgvn9zGgb7qBnZn4oV80sRDXFCCJL855/E2UPYuMB7MoHluVD8X+plMHy5NWFZOjCbHAsn0/yxXwQqwUIZjvzejxvR398KwGE1p9TOe9LvuzJayHvqiLxqgyiYbbkAwezXANT44U/xdEA2J96YHdeOIs1zQCO5S6OM1Ful7OuV0oAwTQYFyWK9xXNPChm0DA5SjCkCpOjw+emSjmM15hdMjkA+9R5EDoHi/UFtkOymTMqynQlPhbmo0znICStNDkuq/hVNVow60wV9h23cLPAvBHvMQYkkqPrAIL94lSaY1u8KopJTUj311OcSyRX1wFMSiyDRWwMg9+VZKl7jeDXEF5NyzEqJYrJxnUdBj/MksT8TzxPjdgbo7LZMd8XcQvH+macLLKo+6L9zwfnaNX13m2fzBalb76t7Rn8BcJ+cxlsKeBhAAAAAElFTkSuQmCC"/></a>
+      <div class="flooter-box">
+        <div class="open">
+            <h3>Open Hours</h3>
+            <p>Lorem ipsum dolor sit amet, tore latthi dimu consectetueiusmodm dost</p>
+            <li><span class="open-time">Monday- Friday . . . . . . . . . . .8 AM - 5PM</span></li>
+            <li><span class="open-time">Sunday. . . . . . . . . . . . . . . . . 12 AM - 5PM</span></li>
+            <li><span class="open-time">Saturday . . . . . . . . . . . . . . . . . . . . . .Close</span></li>
+            
+
+        </div>
+
+      </div>
+      
+            <div class="social">
+            <h3>CONTACT US</h3>
+            <div class="contact">
+                <li><span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASZJREFUSEvt1cErBHEUwPHP3jlQSspNKf4JRzlLDlKKIgfl7LjlphxEUUoOkrMc/ROUs5JSHLizTzOaxuzOrmkum3f8zXvv+953pt801ByNmvvrL8A8mpisqO0BO7iKPllFd5iq2Dwtv8d0HvCZPD3Exh9B2drv4bMbpIA4m8UpRrsEPWMFN8j2KQQM4gNDLcARFkogl1jHGwbwnuS33eARy7hNEhdxgOEc6BWbuEjOZ3CG8TJA2ucE28lEoSqUhbqIUBFKQk1svIfV3ABtN8jmPWEN18lhqIgIdRFzOMZYgcauAGndecvxFkJLROjax1KH99MTIPq8ZDSEvpGSl98zoMsv9iftH1Bq7Jei2i+7uK53MVE6W+eEttd1xb7F5f31y6xF0RedUDYZkAb/FgAAAABJRU5ErkJggg=="/> <i>lorem@gmail.com</i></span></li>
+                <li><span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAfRJREFUSEvN1cvLTWEUx/HPS0kuZUBIihBC7gPlMqAkMaCM3OMfUEaMlBFmjEQMxEAyMDATSRISEZFLEWWgFAOEZ2mdOu92zpu9T2/Zders55z9+z7Pb631230G+eobZH3dABNwBb+wAR+abqQTYBxuYXqKvsCKppAqIMRvYBZeJ2AKnmNlE0gVELasxxssT4uuYxriJAF5X8euKuAHhmIy3qZQ1ONanuoBFvYC+IzRGIUvHQB3sbQXwCPMzc/jFLqfu47fVuNjL4DTxf9dpcA7cTaFokXHYxlu1xGP/1ZrsLv4fwrnSlG3ptgZ7Ci2HS227e8VEG0aO/6OifiExQjvv2E+ntaBdBq0i9iMwziYYidLV+3J9t2CO7keG7raNvF/tXAnwDw8zB0vKbAo7ogUnZPCl3AEJ7Ao12IYV1XnpFsWHcO+nOYYuHcJOZ5N0O7Sq7yZmhPfD9INMDwjI3r+JTai1bYL0rpNeIY1CYhhnFGFDBTXY8vDNzEzh25v+X5+gAK3T/y9ksZhb9e4bumMweX0NtYuZKu2YqSdFwWP3JpdIv6fASEwJEUPYRh+pl3RbZG8kbpfUzxSuF8o1nmjTSrzcaDUZHvpoJFdrIqCx7sjmuLPVQfQeiZOsQ7bMpvCxrieYG1bCjcG1BnkRif4vwC/Ab0RYxl9FmQXAAAAAElFTkSuQmCC"/>(+201003141586)</span></li>
+                <li><span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARxJREFUSEvt1EsuREEUxvFfr8JAgiaewx6S2IHYjIkdsCA2IEw7kYjHwGMgYRNIyb1SSvW9VVrPnFmdnPr+p+o8BmZsgxnrqwHM4QRv2MNrSXKlgCB+geVG9B7bJZASQBA/wyqeGsAi7rDbB+kDxJk/Y6cBnGMevS/pAuTE4xcUQSYBusTb2oZv6oXkACXixZAUUCNeBIkBcbeEy0M8lvQ6lvDQxH7rrhhwha1IsK/DUvZ75BhjFM6xyC3W/ghwg80U0Gq3mbTwfRxhI0n5Ggc4bfzpvU937hvSwBeE+uQsDNrKtIBsZkj9v37BP+BH7Yr+dpoahI25UDjBaViY/LABvizXpqHvj7FeCbnEYTQXE+egUrc7vHbfVMM/AMMeVBkx8bReAAAAAElFTkSuQmCC"/>Aswan - 83 Courniche El Nile </span></li>
+            </div>
+        </div>
+      
+        
+       
+    </div>
+
+</section> -->
+</body>
+<script src="ass/res.js"></script>
+</html>
